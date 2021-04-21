@@ -1,24 +1,10 @@
-$(document).ready(function() {
-    //console.log('DOM');
+$(function() {
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});
-console.log("uno")
+    $('.drop-help').click(function() {
+        $('.help-menu').toggleClass('active');
+    })
+})
