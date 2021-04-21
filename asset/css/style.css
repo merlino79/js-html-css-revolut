@@ -5,6 +5,73 @@
 }
 
 body {
-    background-color: #bd8216;
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* header  */
+
+header {
+    height: 80px;
+}
+
+.wrap-header {
+    display: flex;
+    width: 100%;
+}
+
+
+/* header-sx  */
+
+.header-sx {
+    height: 80px;
+    width: 30%;
+    padding: 20px;
+}
+
+.link-sx .link-dx,
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.link-sx .link-dx,
+li {
+    display: inline;
+}
+
+.link-sx .link-dx,
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(177, 173, 173);
+}
+
+
+/* fine header-sx  */
+
+.header-dx {
+    background-color: blue;
+    height: 80px;
+    width: 70%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+
+/* fine header  */
+
+
+/* colori  */
+
+.black {
+    color: black;
 }
