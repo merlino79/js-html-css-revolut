@@ -17,6 +17,10 @@ $(function() {
         $('.plans-menu').toggleClass('active');
     })
 
+    $('.drop-featurs').click(function() {
+        $('.featurs-menu').toggleClass('active');
+    })
+
 
 
 
