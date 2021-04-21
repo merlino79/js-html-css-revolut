@@ -114,7 +114,8 @@ a {
     background-color: aqua;
     background-color: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
-    display: none;
+    cursor: pointer;
+    /* display: none; */
 }
 
 .help-menu {
@@ -136,7 +137,11 @@ a {
 
 .abaut-menu li {
     padding: 20px;
-    display: block;
+    /* display: block; */
+}
+
+.abaut-menu:hover {
+    display: none;
 }
 
 .help-menu li a:hover {
